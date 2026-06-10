@@ -1,13 +1,17 @@
 export default function PreachingHero() {
   return (
     <header id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background — solid warm tone stands in for the looping preaching clip */}
+      {/* Background — photo of the church front */}
       <div className="absolute inset-0 z-0 bg-brown-deep">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,85,0.25),transparent_60%)]" />
+        <img
+          src="/church-front.jpg"
+          alt="The front of New Horizon Baptist Church"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
       </div>
 
-      {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-brown-deep/60 via-brown-deep/40 to-brown-deep/80 z-[1]" />
+      {/* Gradient overlay — keeps the white headline readable over the photo */}
+      <div className="absolute inset-0 bg-gradient-to-b from-brown-deep/70 via-brown-deep/55 to-brown-deep/85 z-[1]" />
 
       {/* Content */}
       <div className="relative z-[2] text-center text-white max-w-3xl px-5 py-10">
