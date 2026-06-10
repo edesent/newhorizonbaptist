@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-lato);
+  --font-serif: var(--font-playfair);
+
+  /* Warm Color Palette — generic Independent KJV Baptist theme */
+  --color-gold: #d4af55;
+  --color-gold-light: #e8cf8a;
+  --color-gold-dark: #b8942e;
+  --color-cream: #faf6ef;
+  --color-cream-dark: #f0e8d8;
+  --color-warm-white: #fefcf8;
+  --color-brown-deep: #2c1810;
+  --color-brown: #4a2c1a;
+  --color-brown-light: #6b4226;
+  --color-burgundy: #6b2d3e;
+  --color-burgundy-dark: #4a1e2b;
+  --color-text-dark: #2d2017;
+  --color-text-body: #4a3f35;
+  --color-text-light: #7a6e62;
+  --color-text-muted: #9e9488;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-body);
+  background-color: var(--color-warm-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scroll animation utility classes */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scrollBounce {
+  0%, 100% { transform: rotate(45deg) translateY(0); }
+  50% { transform: rotate(45deg) translateY(6px); }
+}
+
+.animate-fade-up {
+  opacity: 0;
+  animation: fadeUp 1s ease forwards;
+}
+
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-400 { animation-delay: 0.4s; }
+.animation-delay-600 { animation-delay: 0.6s; }
+.animation-delay-800 { animation-delay: 0.8s; }
+.animation-delay-900 { animation-delay: 0.9s; }
+.animation-delay-1000 { animation-delay: 1s; }
+.animation-delay-1300 { animation-delay: 1.3s; }
+
+.animate-scroll-bounce {
+  animation: scrollBounce 2s ease infinite;
+}
+
+/* Iframe lazy-load placeholder */
+.iframe-shimmer {
+  background: linear-gradient(90deg, #f0e8d8 0%, #faf6ef 50%, #f0e8d8 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
