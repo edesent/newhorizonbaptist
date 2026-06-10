@@ -8,8 +8,8 @@ export default function manifest(): MetadataRoute.Manifest {
       "A Bible-believing, King James Bible Independent Baptist church.",
     start_url: "/",
     display: "standalone",
-    background_color: "#fefcf8",
-    theme_color: "#2c1810",
+    background_color: "#fbfdff",
+    theme_color: "#14334d",
     icons: [
       {
         src: "/apple-touch-icon.png",

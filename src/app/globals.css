@@ -4,22 +4,34 @@
   --font-sans: var(--font-lato);
   --font-serif: var(--font-playfair);
 
-  /* Warm Color Palette — generic Independent KJV Baptist theme */
-  --color-gold: #d4af55;
-  --color-gold-light: #e8cf8a;
-  --color-gold-dark: #b8942e;
-  --color-cream: #faf6ef;
-  --color-cream-dark: #f0e8d8;
-  --color-warm-white: #fefcf8;
-  --color-brown-deep: #2c1810;
-  --color-brown: #4a2c1a;
-  --color-brown-light: #6b4226;
-  --color-burgundy: #6b2d3e;
-  --color-burgundy-dark: #4a1e2b;
-  --color-text-dark: #2d2017;
-  --color-text-body: #4a3f35;
-  --color-text-light: #7a6e62;
-  --color-text-muted: #9e9488;
+  /* New Horizon palette — Blue #3b7aaf · Yellow #f4cf6c · Pink #b897ac · Orange #fe7a4d */
+
+  /* Yellow accent (was "gold") */
+  --color-gold: #f4cf6c;
+  --color-gold-light: #f9e1a0;
+  --color-gold-dark: #bf6a2a; /* burnt-orange — readable eyebrow text on light bg */
+
+  /* Orange — primary call-to-action */
+  --color-orange: #fe7a4d;
+  --color-orange-dark: #ec5f2f;
+
+  /* Blue family (was "brown") — navy for structure, blue for primary */
+  --color-brown-deep: #14334d; /* deep navy: nav, hero overlay, footer */
+  --color-brown: #1f4d70;
+  --color-brown-light: #3b7aaf; /* primary blue: buttons, links, emphasis */
+
+  /* Pink secondary accent (was "burgundy") */
+  --color-burgundy: #b897ac;
+  --color-burgundy-dark: #936f86;
+
+  /* Cool neutrals */
+  --color-cream: #f2f6fa;
+  --color-cream-dark: #e1ebf3;
+  --color-warm-white: #fbfdff;
+  --color-text-dark: #1b2a36;
+  --color-text-body: #394854;
+  --color-text-light: #6a7884;
+  --color-text-muted: #9aa5af;
 }
 
 html {
@@ -76,7 +88,7 @@ body {
 
 /* Iframe lazy-load placeholder */
 .iframe-shimmer {
-  background: linear-gradient(90deg, #f0e8d8 0%, #faf6ef 50%, #f0e8d8 100%);
+  background: linear-gradient(90deg, #e1ebf3 0%, #f2f6fa 50%, #e1ebf3 100%);
   background-size: 200% 100%;
   animation: shimmer 1.5s ease-in-out infinite;
 }
