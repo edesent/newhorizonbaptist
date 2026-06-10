@@ -17,7 +17,7 @@ const serviceTimes = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-brown-deep to-brown-light text-white/70 pt-20">
+    <footer className="bg-[#33232e] text-white/70 pt-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-16 border-b border-white/[.08]">
           {/* Brand */}
