@@ -19,7 +19,7 @@ const SITE_URL = "https://newhorizonkjb.com";
 const SITE_NAME = "New Horizon Baptist Church";
 const SITE_TAGLINE = "A King James Bible Independent Baptist Church in Port Byron, NY";
 const SITE_DESCRIPTION =
-  "New Horizon Baptist Church is a friendly, King James Bible Independent Baptist church in Port Byron, New York. Join us Sunday for Sunday School at 10:00 AM, Morning Worship at 11:00 AM, and evening service at 6:00 PM, with Wednesday Bible study at 7:00 PM. Old-fashioned hymns, KJV preaching, and a warm welcome — all are welcome.";
+  "New Horizon Baptist Church is a friendly, King James Bible Independent Baptist church in Port Byron, New York. Join us Sunday for Sunday School at 10:00 AM and Morning Worship at 11:00 AM, with Thursday Bible study at 6:30 PM. Old-fashioned hymns, KJV preaching, and a warm welcome — all are welcome.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "Independent Fundamental Baptist",
     "old-fashioned Baptist church",
     "Sunday worship",
-    "Wednesday Bible study",
+    "Thursday Bible study",
     "expository preaching",
     "Baptist church family",
   ],

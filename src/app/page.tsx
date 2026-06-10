@@ -14,12 +14,7 @@ import MinistriesPreview from "@/components/MinistriesPreview";
 import PlanOfSalvation from "@/components/PlanOfSalvation";
 import Missionaries from "@/components/Missionaries";
 import Give from "@/components/Give";
-import PhotoGallery from "@/components/PhotoGallery";
 import MapAddress from "@/components/MapAddress";
-import PrayerRequest from "@/components/PrayerRequest";
-import ChatPastor from "@/components/ChatPastor";
-import MobileFriendly from "@/components/MobileFriendly";
-import EditWithAI from "@/components/EditWithAI";
 import Footer from "@/components/Footer";
 
 const churchSchema = {
@@ -31,7 +26,7 @@ const churchSchema = {
   logo: "https://newhorizonkjb.com/logo.png",
   image: "https://newhorizonkjb.com/og-image.jpg",
   description:
-    "A King James Bible Independent Baptist church in Port Byron, NY. Sunday School 10:00 AM, Morning Worship 11:00 AM, evening service 6:00 PM, Wednesday Bible study 7:00 PM.",
+    "A King James Bible Independent Baptist church in Port Byron, NY. Sunday School 10:00 AM, Morning Worship 11:00 AM, and Thursday Bible study 6:30 PM.",
   telephone: "+1-717-419-5777",
   email: "kingjamesgang@gmail.com",
   address: {
@@ -47,13 +42,13 @@ const churchSchema = {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: "Sunday",
       opens: "10:00",
-      closes: "19:30",
+      closes: "12:15",
     },
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Wednesday",
-      opens: "19:00",
-      closes: "20:30",
+      dayOfWeek: "Thursday",
+      opens: "18:30",
+      closes: "19:30",
     },
   ],
 };
@@ -82,12 +77,7 @@ export default function Home() {
         <PlanOfSalvation />
         <Missionaries />
         <Give />
-        <PhotoGallery />
         <MapAddress />
-        <PrayerRequest />
-        <ChatPastor />
-        <MobileFriendly />
-        <EditWithAI />
       </main>
       <Footer />
     </>

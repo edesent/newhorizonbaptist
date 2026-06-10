@@ -15,15 +15,9 @@ const services = [
     detail: "Singing, prayer, & preaching",
   },
   {
-    day: "Sunday",
-    title: "Evening Service",
-    time: "6:00 PM",
-    detail: "A relaxed second service",
-  },
-  {
-    day: "Wednesday",
+    day: "Thursday",
     title: "Bible Study & Prayer",
-    time: "7:00 PM",
+    time: "6:30 PM",
     detail: "Mid-week verse-by-verse study",
   },
 ];
@@ -49,7 +43,7 @@ export default function ServiceTimes() {
           </div>
         </AnimateOnScroll>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {services.map((s, i) => (
             <AnimateOnScroll key={s.title} delay={i * 100}>
               <div className="h-full p-7 bg-warm-white rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all border border-cream-dark">

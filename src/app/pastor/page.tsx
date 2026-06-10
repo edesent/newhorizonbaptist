@@ -55,8 +55,7 @@ export default function PastorPage() {
             <p className="text-text-body leading-relaxed">
               Pastor Fincham loves hearing from members and visitors alike. Call the church
               at <a href="tel:+17174195777" className="text-brown-light font-semibold">(717) 419-5777</a>,
-              email <a href="mailto:kingjamesgang@gmail.com" className="text-brown-light font-semibold">kingjamesgang@gmail.com</a>,
-              or use the chat widget on the homepage.
+              or email <a href="mailto:kingjamesgang@gmail.com" className="text-brown-light font-semibold">kingjamesgang@gmail.com</a>.
             </p>
           </div>
         </section>
