@@ -27,20 +27,6 @@ export default function PlanOfSalvation() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(245,166,35,0.12),transparent_60%)]" />
 
       <div className="relative max-w-7xl mx-auto px-6">
-        {/* Dark-tone badge */}
-        <div className="flex justify-center mb-10">
-          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-gold/40 bg-white/5 text-[11px] font-semibold tracking-[0.18em] uppercase text-gold-light">
-            <span className="flex items-center justify-center w-6 h-6 rounded-full bg-gold text-brown-deep text-[10px] font-bold">
-              14
-            </span>
-            <span className="whitespace-nowrap">Plan of Salvation</span>
-            <span className="hidden sm:inline-block w-1 h-1 rounded-full bg-gold/50" />
-            <span className="hidden sm:inline-block normal-case tracking-normal text-[12px] font-normal text-white/70">
-              The Gospel — the most important section on the whole site
-            </span>
-          </div>
-        </div>
-
         <AnimateOnScroll>
           <div className="text-center mb-14 max-w-3xl mx-auto">
             <h2 className="font-serif text-3xl md:text-5xl font-bold text-white leading-snug mb-5">

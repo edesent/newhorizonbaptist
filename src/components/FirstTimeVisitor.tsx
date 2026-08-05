@@ -56,7 +56,7 @@ export default function FirstTimeVisitor() {
         <AnimateOnScroll delay={400}>
           <div className="text-center mt-12">
             <a
-              href="#contact"
+              href="/plan-a-visit"
               className="inline-block bg-brown-light text-white font-semibold text-sm tracking-wide uppercase px-9 py-3.5 rounded-full border-2 border-brown-light hover:bg-brown hover:border-brown hover:-translate-y-0.5 hover:shadow-lg transition-all"
             >
               Let Us Know You&rsquo;re Coming

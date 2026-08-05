@@ -1,10 +1,10 @@
 const quickLinks = [
   { href: "#home", label: "Home" },
+  { href: "/plan-a-visit", label: "Plan a Visit" },
   { href: "#about", label: "About Us" },
   { href: "#services", label: "Service Times" },
   { href: "#ministries", label: "Ministries" },
-  { href: "/messages", label: "Messages" },
-  { href: "/give", label: "Give Online" },
+  { href: "/give", label: "Giving" },
   { href: "/statement-of-faith", label: "Statement of Faith" },
   { href: "/plan-of-salvation", label: "Plan of Salvation" },
 ];

@@ -8,8 +8,6 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
   { href: "#ministries", label: "Ministries" },
-  { href: "#events", label: "Events" },
-  { href: "/messages", label: "Messages" },
   { href: "/give", label: "Give" },
   { href: "/statement-of-faith", label: "Beliefs" },
   { href: "#contact", label: "Contact" },
@@ -92,8 +90,7 @@ export default function Navbar() {
           ))}
           <li className="ml-2">
             <a
-              href="#contact"
-              onClick={(e) => handleLinkClick(e, "#contact")}
+              href="/plan-a-visit"
               className="bg-orange text-white text-sm font-semibold px-6 py-2.5 rounded-full hover:bg-orange-dark hover:-translate-y-0.5 transition-all"
             >
               Plan a Visit
@@ -144,8 +141,8 @@ export default function Navbar() {
             ))}
             <li className="mt-4">
               <a
-                href="#contact"
-                onClick={(e) => handleLinkClick(e, "#contact")}
+                href="/plan-a-visit"
+                onClick={() => setMenuOpen(false)}
                 className="block text-center bg-orange text-white font-semibold px-6 py-3 rounded-full hover:bg-orange-dark transition-all"
               >
                 Plan a Visit

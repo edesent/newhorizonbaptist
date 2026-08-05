@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Lato } from "next/font/google";
+import { CHAT } from "@/config/chat";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -116,7 +117,29 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${lato.variable} antialiased`}
     >
-      <body className="min-h-screen flex flex-col">{children}</body>
+      <body className="min-h-screen flex flex-col">
+        {children}
+
+        {/*
+          Live chat bubble (WBC Chat). Messages land in the church's Slack,
+          #newhorizonbaptistchurch, and @-mention Pastor Fincham; he replies from
+          Slack and it appears live in the visitor's chat. Any button on the site
+          can open it with window.WBCChat.open().
+
+          Deliberately a plain <script defer> rather than next/script: the widget
+          reads its settings off document.currentScript, so the tag (and every
+          data- attribute) needs to be in the served HTML as written.
+        */}
+        <script
+          src={`${CHAT.origin}/widget/wbc-chat.js`}
+          data-api={CHAT.origin}
+          data-key={CHAT.apiKey}
+          data-agent-icon-url={CHAT.agentIcon}
+          data-accent-color={CHAT.accentColor}
+          data-greeting={CHAT.greeting}
+          defer
+        />
+      </body>
     </html>
   );
 }

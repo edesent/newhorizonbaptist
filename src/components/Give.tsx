@@ -25,8 +25,9 @@ export default function Give() {
                   Support the Work of <em className="text-gold-light italic">the Lord.</em>
                 </h2>
                 <p className="text-white/80 leading-relaxed max-w-xl mb-3">
-                  Your tithes and offerings keep the doors open, the lights on, and missionaries
-                  on the field. Give securely online — or drop your offering in the plate Sunday morning.
+                  Your tithes and offerings keep the doors open, the lights on, and the Gospel
+                  going out. Drop your offering in the plate Sunday morning, or mail a
+                  check to the church.
                 </p>
                 <p className="font-serif italic text-white/60 text-sm">
                   &ldquo;Every man according as he purposeth in his heart, so let him give... for God loveth a cheerful giver.&rdquo;
@@ -39,7 +40,7 @@ export default function Give() {
                   href="/give"
                   className="inline-flex items-center justify-center gap-2 bg-gold text-brown-deep font-semibold text-sm tracking-wide uppercase px-9 py-4 rounded-full hover:bg-gold-light hover:-translate-y-0.5 hover:shadow-lg transition-all whitespace-nowrap"
                 >
-                  Give Online
+                  Ways to Give
                 </a>
                 <a
                   href="/give#mail"

@@ -6,12 +6,8 @@ import ServiceTimes from "@/components/ServiceTimes";
 import FirstTimeVisitor from "@/components/FirstTimeVisitor";
 import AboutMission from "@/components/AboutMission";
 import WhatWeBelieve from "@/components/WhatWeBelieve";
-import Testimonies from "@/components/Testimonies";
-import LatestSermon from "@/components/LatestSermon";
-import UpcomingEvents from "@/components/UpcomingEvents";
 import MinistriesPreview from "@/components/MinistriesPreview";
 import PlanOfSalvation from "@/components/PlanOfSalvation";
-import Missionaries from "@/components/Missionaries";
 import Give from "@/components/Give";
 import MapAddress from "@/components/MapAddress";
 import Footer from "@/components/Footer";
@@ -68,12 +64,8 @@ export default function Home() {
         <FirstTimeVisitor />
         <AboutMission />
         <WhatWeBelieve />
-        <Testimonies />
-        <LatestSermon />
-        <UpcomingEvents />
         <MinistriesPreview />
         <PlanOfSalvation />
-        <Missionaries />
         <Give />
         <MapAddress />
       </main>
