@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import PreachingHero from "@/components/PreachingHero";
-import WatchLive from "@/components/WatchLive";
 import WelcomePastor from "@/components/WelcomePastor";
 import ScriptureBanner from "@/components/ScriptureBanner";
 import ServiceTimes from "@/components/ServiceTimes";
@@ -63,7 +62,6 @@ export default function Home() {
       <Navbar />
       <main>
         <PreachingHero />
-        <WatchLive />
         <WelcomePastor />
         <ScriptureBanner />
         <ServiceTimes />

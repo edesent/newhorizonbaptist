@@ -60,15 +60,13 @@ export default function Navbar() {
           onClick={(e) => handleLinkClick(e, "#home")}
           className="flex items-center gap-3 text-white"
         >
-          {/* Logo mark sits on a warm-white chip so the navy in the artwork reads on the dark nav */}
-          <span className="flex items-center justify-center h-11 px-3 rounded-xl bg-warm-white shadow-md">
-            <img
-              src="/logo-mark.png"
-              alt=""
-              aria-hidden="true"
-              className="h-[26px] w-auto"
-            />
-          </span>
+          {/* Sun and crosses from the logo — transparent, reads directly on the dark nav */}
+          <img
+            src="/logo-sun.png"
+            alt=""
+            aria-hidden="true"
+            className="h-10 sm:h-11 w-auto"
+          />
           <div className="flex flex-col leading-tight">
             <span className="font-serif text-base sm:text-lg font-bold tracking-[0.06em] uppercase text-white whitespace-nowrap">
               New Horizon

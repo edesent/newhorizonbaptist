@@ -40,17 +40,17 @@ export default function PreachingHero() {
             Plan Your Visit
           </a>
           <a
-            href="#watch-live"
+            href="/pastor"
             className="inline-block text-white font-semibold text-sm tracking-wide uppercase px-9 py-3.5 rounded-full border-2 border-white/50 hover:bg-white/10 hover:border-white hover:-translate-y-0.5 transition-all"
           >
-            Watch Live
+            Meet Our Pastor
           </a>
         </div>
       </div>
 
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-[2] animate-fade-up animation-delay-1300">
-        <a href="#watch-live" className="flex flex-col items-center gap-2 text-white/50 text-xs tracking-[0.15em] uppercase">
+        <a href="#welcome" className="flex flex-col items-center gap-2 text-white/50 text-xs tracking-[0.15em] uppercase">
           <span>Scroll</span>
           <div className="w-5 h-5 border-r-2 border-b-2 border-white/40 rotate-45 animate-scroll-bounce" />
         </a>
