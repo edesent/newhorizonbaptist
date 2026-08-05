@@ -80,15 +80,8 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
-    shortcut: "/favicon.ico",
-  },
-  manifest: "/site.webmanifest",
+  // Icons come from the app/ file conventions: favicon.ico, icon.png, apple-icon.png
+  manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
     title: SITE_NAME,
@@ -107,8 +100,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fbfdff" },
-    { media: "(prefers-color-scheme: dark)", color: "#14334d" },
+    { media: "(prefers-color-scheme: light)", color: "#fffdf9" },
+    { media: "(prefers-color-scheme: dark)", color: "#052a4e" },
   ],
   colorScheme: "light",
 };

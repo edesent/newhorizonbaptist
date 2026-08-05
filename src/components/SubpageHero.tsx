@@ -7,8 +7,14 @@ interface Props {
 export default function SubpageHero({ eyebrow, title, subtitle }: Props) {
   return (
     <header className="relative pt-36 pb-20 bg-brown-deep overflow-hidden">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,175,85,0.18),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(245,166,35,0.20),transparent_62%)]" />
+      {/* Sunrise rays from the logo */}
+      <div className="absolute inset-0 sun-rays-dark" aria-hidden="true" />
       <div className="relative max-w-4xl mx-auto px-6 text-center">
+        {/* Logo mark on a warm-white card — the navy in the artwork needs a light ground */}
+        <span className="inline-flex items-center justify-center px-6 py-3 mb-7 rounded-2xl bg-warm-white shadow-lg">
+          <img src="/logo-mark.png" alt="" aria-hidden="true" className="h-11 w-auto" />
+        </span>
         {eyebrow && (
           <p className="text-xs font-bold tracking-[0.25em] uppercase text-gold-light mb-3">
             {eyebrow}
@@ -22,7 +28,7 @@ export default function SubpageHero({ eyebrow, title, subtitle }: Props) {
             {subtitle}
           </p>
         )}
-        <div className="w-20 h-[3px] bg-gold mx-auto mt-8 rounded" />
+        <div className="horizon-rule-dark w-28 mx-auto mt-8" />
       </div>
     </header>
   );

@@ -4,34 +4,35 @@
   --font-sans: var(--font-lato);
   --font-serif: var(--font-playfair);
 
-  /* New Horizon palette — Blue #3b7aaf · Yellow #f4cf6c · Pink #b897ac · Orange #fe7a4d */
+  /* New Horizon palette — sampled from the church logo:
+     navy #002454 · river blue #0c60a8 · sun orange #fc8418 · ray amber #fc9c24 */
 
-  /* Yellow accent (was "gold") */
-  --color-gold: #f4cf6c;
-  --color-gold-light: #f9e1a0;
-  --color-gold-dark: #bf6a2a; /* burnt-orange — readable eyebrow text on light bg */
+  /* Amber — sun rays; eyebrows, dividers, small accents */
+  --color-gold: #f5a623;
+  --color-gold-light: #ffcf85;
+  --color-gold-dark: #a85c07; /* readable amber text on light backgrounds */
 
-  /* Orange — primary call-to-action */
-  --color-orange: #fe7a4d;
-  --color-orange-dark: #ec5f2f;
+  /* Sunrise orange — primary call-to-action */
+  --color-orange: #f5811d;
+  --color-orange-dark: #dc6a10;
 
-  /* Blue family (was "brown") — navy for structure, blue for primary */
-  --color-brown-deep: #14334d; /* deep navy: nav, hero overlay, footer */
-  --color-brown: #1f4d70;
-  --color-brown-light: #3b7aaf; /* primary blue: buttons, links, emphasis */
+  /* Navy / blue family (was "brown") — navy for structure, river blue for primary */
+  --color-brown-deep: #052a4e; /* logo navy: nav, hero overlay, footer */
+  --color-brown: #0e3d68;
+  --color-brown-light: #1a6fb0; /* river blue: buttons, links, emphasis */
 
-  /* Pink secondary accent (was "burgundy") */
-  --color-burgundy: #b897ac;
-  --color-burgundy-dark: #936f86;
+  /* River blue, lighter — secondary accent (was "burgundy") */
+  --color-burgundy: #2f86cf;
+  --color-burgundy-dark: #1f6aab;
 
-  /* Cool neutrals */
-  --color-cream: #f2f6fa;
-  --color-cream-dark: #e1ebf3;
-  --color-warm-white: #fbfdff;
-  --color-text-dark: #1b2a36;
-  --color-text-body: #394854;
-  --color-text-light: #6a7884;
-  --color-text-muted: #9aa5af;
+  /* Warm paper neutrals — the sun's glow side of the logo */
+  --color-cream: #fbf4ea;
+  --color-cream-dark: #f1e5d4;
+  --color-warm-white: #fffdf9;
+  --color-text-dark: #14263a;
+  --color-text-body: #3a4a5a;
+  --color-text-light: #6a7887;
+  --color-text-muted: #9aa5b1;
 }
 
 html {
@@ -86,9 +87,60 @@ body {
   animation: scrollBounce 2s ease infinite;
 }
 
+/* Sunrise rays — the logo's motif, used as a subtle background behind headings.
+   Repeating conic gradient = spokes radiating from a point on the bottom edge. */
+.sun-rays {
+  background: repeating-conic-gradient(
+    from 200deg at 50% 100%,
+    rgba(245, 166, 35, 0.16) 0deg 2.2deg,
+    transparent 2.2deg 9deg
+  );
+  mask-image: radial-gradient(60% 100% at 50% 100%, #000 0%, transparent 72%);
+  -webkit-mask-image: radial-gradient(60% 100% at 50% 100%, #000 0%, transparent 72%);
+}
+
+/* Same rays, tuned for the dark navy hero */
+.sun-rays-dark {
+  background: repeating-conic-gradient(
+    from 200deg at 50% 100%,
+    rgba(252, 156, 36, 0.22) 0deg 2.2deg,
+    transparent 2.2deg 9deg
+  );
+  mask-image: radial-gradient(65% 100% at 50% 100%, #000 0%, transparent 78%);
+  -webkit-mask-image: radial-gradient(65% 100% at 50% 100%, #000 0%, transparent 78%);
+}
+
+/* Horizon rule, for dark navy backgrounds — amber center, fading to light */
+.horizon-rule-dark {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.35) 22%,
+    var(--color-gold) 50%,
+    rgba(255, 255, 255, 0.35) 78%,
+    transparent
+  );
+  border-radius: 2px;
+}
+
+/* Horizon rule — the logo's curving road, as a section divider */
+.horizon-rule {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-brown-light) 20%,
+    var(--color-gold) 50%,
+    var(--color-brown-light) 80%,
+    transparent
+  );
+  border-radius: 2px;
+}
+
 /* Iframe lazy-load placeholder */
 .iframe-shimmer {
-  background: linear-gradient(90deg, #e1ebf3 0%, #f2f6fa 50%, #e1ebf3 100%);
+  background: linear-gradient(90deg, #f1e5d4 0%, #fbf4ea 50%, #f1e5d4 100%);
   background-size: 200% 100%;
   animation: shimmer 1.5s ease-in-out infinite;
 }

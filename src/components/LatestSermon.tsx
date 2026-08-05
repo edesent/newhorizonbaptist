@@ -15,7 +15,7 @@ export default function LatestSermon() {
           <AnimateOnScroll>
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-xl bg-brown-deep group">
               <div className="absolute inset-0 bg-gradient-to-br from-brown to-brown-deep" />
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(212,175,85,0.15),transparent_70%)]" />
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(245,166,35,0.15),transparent_70%)]" />
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
                 <div className="w-20 h-20 rounded-full bg-gold flex items-center justify-center mb-4 shadow-2xl group-hover:scale-110 transition-transform">
                   <svg className="w-8 h-8 text-brown-deep ml-1" viewBox="0 0 24 24" fill="currentColor">

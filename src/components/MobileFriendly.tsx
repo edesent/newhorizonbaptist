@@ -92,7 +92,7 @@ export default function MobileFriendly() {
                     </div>
 
                     {/* Mini hero preview */}
-                    <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,85,0.25),transparent_60%)]" />
+                    <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(245,166,35,0.25),transparent_60%)]" />
                     <div className="relative h-full flex flex-col items-center justify-center px-6 text-center text-white">
                       <p className="text-[9px] font-semibold tracking-[0.25em] uppercase text-gold-light mb-1">
                         Welcome to

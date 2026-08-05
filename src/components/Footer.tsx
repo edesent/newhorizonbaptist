@@ -17,22 +17,32 @@ const serviceTimes = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#33232e] text-white/70 pt-20">
-      <div className="max-w-7xl mx-auto px-6">
+    <footer className="bg-brown-deep text-white/70">
+      {/* Horizon band — the full logo lockup on warm paper, sunrise rays behind it */}
+      <div className="relative overflow-hidden bg-cream">
+        <div className="absolute inset-0 sun-rays" aria-hidden="true" />
+        <div className="relative max-w-7xl mx-auto px-6 py-12 flex justify-center">
+          <img
+            src="/logo.png"
+            alt="New Horizon Baptist Church of Port Byron, New York"
+            className="w-full max-w-[380px] h-auto"
+          />
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-6 pt-20">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-16 border-b border-white/[.08]">
           {/* Brand */}
           <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
-            <div className="w-14 h-14 rounded-full bg-gold flex items-center justify-center text-brown-deep font-bold font-serif text-xl shadow-md mb-4">
-              NH
-            </div>
-            <p className="font-serif text-lg text-white mb-2 leading-tight">
+            <p className="font-serif text-xl text-white mb-2 leading-tight">
               New Horizon<br />Baptist Church
             </p>
+            <div className="horizon-rule w-24 mb-4" />
             <p className="text-sm leading-relaxed">
               8505 S Street Rd<br />
               Port Byron, NY 13140<br />
-              <a href="tel:+17174195777" className="text-gold-light hover:text-gold transition-colors">
-                (717) 419-5777
+              <a href="tel:+15407182334" className="text-gold-light hover:text-gold transition-colors">
+                (540) 718-2334
               </a>
             </p>
           </div>

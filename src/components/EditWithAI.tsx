@@ -19,7 +19,7 @@ export default function EditWithAI() {
 
       {/* Dark gradient overlay so text stays readable */}
       <div className="absolute inset-0 bg-gradient-to-b from-brown-deep/85 via-brown-deep/70 to-brown-deep/90 z-[1]" />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(44,24,16,0.4)_100%)] z-[1]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(5,42,78,0.45)_100%)] z-[1]" />
 
       {/* Inline dark-tone badge */}
       <div className="relative z-[2] flex justify-center mb-10">

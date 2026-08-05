@@ -42,8 +42,8 @@ export default function MapAddress() {
                   </div>
                   <div>
                     <p className="text-xs font-bold tracking-[0.15em] uppercase text-text-light mb-0.5">Phone</p>
-                    <a href="tel:+17174195777" className="text-text-dark font-medium hover:text-brown-light transition-colors">
-                      (717) 419-5777
+                    <a href="tel:+15407182334" className="text-text-dark font-medium hover:text-brown-light transition-colors">
+                      (540) 718-2334
                     </a>
                   </div>
                 </div>
@@ -56,8 +56,8 @@ export default function MapAddress() {
                   </div>
                   <div>
                     <p className="text-xs font-bold tracking-[0.15em] uppercase text-text-light mb-0.5">Email</p>
-                    <a href="mailto:kingjamesgang@gmail.com" className="text-text-dark font-medium hover:text-brown-light transition-colors">
-                      kingjamesgang@gmail.com
+                    <a href="mailto:efincham95@gmail.com" className="text-text-dark font-medium hover:text-brown-light transition-colors">
+                      efincham95@gmail.com
                     </a>
                   </div>
                 </div>

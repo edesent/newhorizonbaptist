@@ -60,15 +60,21 @@ export default function Navbar() {
           onClick={(e) => handleLinkClick(e, "#home")}
           className="flex items-center gap-3 text-white"
         >
-          <div className="w-9 h-9 rounded-full bg-gold flex items-center justify-center text-brown-deep font-bold font-serif text-base shadow-sm">
-            NH
-          </div>
+          {/* Logo mark sits on a warm-white chip so the navy in the artwork reads on the dark nav */}
+          <span className="flex items-center justify-center h-11 px-3 rounded-xl bg-warm-white shadow-md">
+            <img
+              src="/logo-mark.png"
+              alt=""
+              aria-hidden="true"
+              className="h-[26px] w-auto"
+            />
+          </span>
           <div className="flex flex-col leading-tight">
-            <span className="text-sm sm:text-base font-semibold tracking-[0.18em] uppercase text-gold whitespace-nowrap">
+            <span className="font-serif text-base sm:text-lg font-bold tracking-[0.06em] uppercase text-white whitespace-nowrap">
               New Horizon
             </span>
-            <span className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-white/60 whitespace-nowrap">
-              Baptist Church
+            <span className="text-[10px] sm:text-xs font-semibold tracking-[0.3em] uppercase text-gold whitespace-nowrap">
+              Baptist
             </span>
           </div>
         </a>

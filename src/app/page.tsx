@@ -27,8 +27,8 @@ const churchSchema = {
   image: "https://newhorizonkjb.com/og-image.jpg",
   description:
     "A King James Bible Independent Baptist church in Port Byron, NY. Sunday School 10:00 AM, Morning Worship 11:00 AM, and Thursday Bible study 6:30 PM.",
-  telephone: "+1-717-419-5777",
-  email: "kingjamesgang@gmail.com",
+  telephone: "+1-540-718-2334",
+  email: "efincham95@gmail.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "8505 S Street Rd",

@@ -13,6 +13,12 @@ export default function PreachingHero() {
       {/* Gradient overlay — keeps the white headline readable over the photo */}
       <div className="absolute inset-0 bg-gradient-to-b from-brown-deep/70 via-brown-deep/55 to-brown-deep/85 z-[1]" />
 
+      {/* Sunrise glow — the logo's rising sun, warming the type without fighting the photo */}
+      <div
+        className="absolute inset-0 z-[1] bg-[radial-gradient(ellipse_55%_45%_at_50%_38%,rgba(245,166,35,0.22),transparent_70%)]"
+        aria-hidden="true"
+      />
+
       {/* Content */}
       <div className="relative z-[2] text-center text-white max-w-3xl px-5 py-10">
         <p className="text-sm font-semibold tracking-[0.25em] uppercase text-gold-light mb-3 animate-fade-up animation-delay-200">
@@ -21,7 +27,7 @@ export default function PreachingHero() {
         <h1 className="font-serif text-5xl md:text-7xl font-bold leading-tight mb-5 animate-fade-up animation-delay-400">
           New Horizon<br />Baptist Church
         </h1>
-        <div className="w-20 h-[3px] bg-gold mx-auto mb-6 rounded animate-fade-up animation-delay-600" />
+        <div className="horizon-rule-dark w-28 mx-auto mb-6 animate-fade-up animation-delay-600" />
         <p className="font-serif text-lg md:text-xl italic text-white/85 leading-relaxed max-w-xl mx-auto mb-9 animate-fade-up animation-delay-800">
           &ldquo;Preach the word; be instant in season, out of season.&rdquo;
           <span className="block not-italic text-sm text-gold-light mt-2">— 2 Timothy 4:2 (KJV)</span>

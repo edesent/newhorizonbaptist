@@ -17,7 +17,7 @@ export default function WelcomePastor() {
             <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/5] bg-brown-deep">
               <img
                 src="/pastor-family.jpg"
-                alt="Pastor Evan Fincham and his wife"
+                alt="Pastor Evan Fincham and his wife Kelsea"
                 className="absolute inset-0 w-full h-full object-cover object-top"
               />
             </div>
@@ -33,8 +33,9 @@ export default function WelcomePastor() {
                 You&rsquo;re Invited to <em className="text-brown-light italic">Visit Us</em>
               </h2>
               <p className="text-lg text-text-body leading-relaxed mb-4">
-                Hello friend — I&rsquo;m Pastor Evan Fincham, and on behalf of our church family
-                here in Port Byron I want to personally invite you to join us this Sunday.
+                Hello friend — I&rsquo;m Pastor Evan Fincham. My wife Kelsea and I are so glad the
+                Lord brought us to Port Byron, and on behalf of our church family I want to
+                personally invite you to join us this Sunday.
               </p>
               <p className="text-lg text-text-body leading-relaxed mb-6">
                 We&rsquo;re an old-fashioned, Bible-believing church that loves the Lord, preaches
