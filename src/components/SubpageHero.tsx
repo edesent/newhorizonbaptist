@@ -11,10 +11,6 @@ export default function SubpageHero({ eyebrow, title, subtitle }: Props) {
       {/* Sunrise rays from the logo */}
       <div className="absolute inset-0 sun-rays-dark" aria-hidden="true" />
       <div className="relative max-w-4xl mx-auto px-6 text-center">
-        {/* Logo mark on a warm-white card — the navy in the artwork needs a light ground */}
-        <span className="inline-flex items-center justify-center px-6 py-3 mb-7 rounded-2xl bg-warm-white shadow-lg">
-          <img src="/logo-mark.png" alt="" aria-hidden="true" className="h-11 w-auto" />
-        </span>
         {eyebrow && (
           <p className="text-xs font-bold tracking-[0.25em] uppercase text-gold-light mb-3">
             {eyebrow}
