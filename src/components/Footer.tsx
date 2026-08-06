@@ -78,7 +78,7 @@ export default function Footer() {
             <h4 className="font-serif text-base font-semibold text-white mb-5">Connect With Us</h4>
             <div className="flex gap-3 mb-6 justify-center sm:justify-start">
               <a
-                href="https://www.facebook.com/NewHorizonKJB/"
+                href="https://www.facebook.com/share/19fGJUVdyC/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
