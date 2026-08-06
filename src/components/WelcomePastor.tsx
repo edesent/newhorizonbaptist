@@ -16,7 +16,7 @@ export default function WelcomePastor() {
           <AnimateOnScroll>
             <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/5] bg-brown-deep">
               <img
-                src="/pastor-family.jpg"
+                src="https://o3hectmev11nr3rl.public.blob.vercel-storage.com/church-uploads/jX3Pyf67_wVqMnULNG_SzQZ8XnIZi6hB/IMG_0686-M4z28rnIMNHdEm82OAJ19E1lci4ZwJ.jpeg"
                 alt="Pastor Evan Fincham and his wife Kelsea"
                 className="absolute inset-0 w-full h-full object-cover object-top"
               />
