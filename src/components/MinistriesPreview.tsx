@@ -4,10 +4,6 @@ import SectionBadge from "./SectionBadge";
 const ministries = [
   { name: "Sunday School", body: "Classes for every age, every Sunday at 10:00 AM." },
   { name: "Youth Group", body: "Teens meet Thursdays after Bible study for fellowship and discipleship." },
-  { name: "Ladies' Fellowship", body: "Monthly Bible study, prayer time, and service projects." },
-  { name: "Men's Prayer Breakfast", body: "First Saturday of every month at 8:00 AM." },
-  { name: "Bus & Outreach", body: "We bring kids and adults to church and share the Gospel door-to-door." },
-  { name: "Nursing Home Ministry", body: "Hymn-sings and Bible reading at local senior homes every other week." },
 ];
 
 export default function MinistriesPreview() {
