@@ -21,7 +21,7 @@ const churchSchema = {
   logo: "https://newhorizonkjb.com/logo.png",
   image: "https://newhorizonkjb.com/og-image.jpg",
   description:
-    "A King James Bible Independent Baptist church in Port Byron, NY. Sunday School 10:00 AM, Morning Worship 11:00 AM, and Thursday Bible study 6:30 PM.",
+    "A King James Bible Independent Baptist church in Port Byron, NY. Sunday School 10:00 AM, Morning Worship 11:00 AM, and Wednesday Bible study 6:30 PM.",
   telephone: "+1-540-718-2334",
   email: "efincham95@gmail.com",
   address: {
