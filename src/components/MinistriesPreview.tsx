@@ -3,7 +3,7 @@ import SectionBadge from "./SectionBadge";
 
 const ministries = [
   { name: "Sunday School", body: "Classes for every age, every Sunday at 10:00 AM." },
-  { name: "Youth Group", body: "Teens meet Thursdays after Bible study for fellowship and discipleship." },
+  { name: "Youth Group", body: "Teens meet Wednesdays after Bible study for fellowship and discipleship." },
 ];
 
 export default function MinistriesPreview() {
