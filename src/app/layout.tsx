@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "Independent Fundamental Baptist",
     "old-fashioned Baptist church",
     "Sunday worship",
-    "Thursday Bible study",
+    "Wednesday Bible study",
     "expository preaching",
     "Baptist church family",
   ],
