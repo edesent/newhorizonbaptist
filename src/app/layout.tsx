@@ -20,7 +20,7 @@ const SITE_URL = "https://newhorizonkjb.com";
 const SITE_NAME = "New Horizon Baptist Church";
 const SITE_TAGLINE = "An Independent Baptist Church in Port Byron, NY";
 const SITE_DESCRIPTION =
-  "New Horizon Baptist Church is a friendly, Independent Baptist church in Port Byron, New York. Join us Sunday for Sunday School at 10:00 AM and Morning Worship at 11:00 AM, with Thursday Bible study at 6:30 PM. Old-fashioned hymns, expository preaching, and a warm welcome — all are welcome.";
+  "New Horizon Baptist Church is a friendly, Independent Baptist church in Port Byron, New York. Join us Sunday for Sunday School at 10:00 AM and Morning Worship at 11:00 AM, with Wednesday Bible study at 6:30 PM. Old-fashioned hymns, expository preaching, and a warm welcome — all are welcome.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
