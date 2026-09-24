@@ -31,7 +31,7 @@ export default function WatchLive() {
                   Can&rsquo;t make it in person? <em className="text-gold-light italic">Worship with us online.</em>
                 </h2>
                 <p className="text-white/75 leading-relaxed max-w-xl">
-                  We livestream every Sunday morning service and Thursday Bible study.
+                  We livestream every Sunday morning service and Wednesday Bible study.
                   Whether you&rsquo;re sick, traveling, or just checking us out — pull up a chair.
                 </p>
               </div>
