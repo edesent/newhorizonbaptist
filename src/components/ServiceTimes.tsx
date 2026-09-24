@@ -15,7 +15,7 @@ const services = [
     detail: "Singing, prayer, & preaching",
   },
   {
-    day: "Thursday",
+    day: "Wednesday",
     title: "Bible Study & Prayer",
     time: "6:30 PM",
     detail: "Mid-week verse-by-verse study",
