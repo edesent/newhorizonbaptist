@@ -5,7 +5,7 @@ import { useState } from "react";
 const SERVICES = [
   "Sunday School — 10:00 AM",
   "Morning Worship — 11:00 AM",
-  "Thursday Bible Study — 6:30 PM",
+  "Wednesday Bible Study — 6:30 PM",
   "Not sure yet",
 ];
 
