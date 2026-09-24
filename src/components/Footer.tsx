@@ -12,7 +12,7 @@ const quickLinks = [
 const serviceTimes = [
   { label: "Sunday School", time: "10:00 AM" },
   { label: "Morning Worship", time: "11:00 AM" },
-  { label: "Thursday Bible Study", time: "6:30 PM" },
+  { label: "Wednesday Bible Study", time: "6:30 PM" },
 ];
 
 export default function Footer() {
